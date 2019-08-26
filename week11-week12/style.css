@@ -1,0 +1,121 @@
+body {
+  background-color: white;
+  margin: 0 auto;
+
+}
+.fotos{
+  width: 50rem;
+  height: 80rem;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "helvetica";
+}
+main div {
+	height: 70vh;
+	width: 90vh;
+	margin: 15vh auto;
+	border: .1rem solid black;
+	position: relative;}
+
+header h1 {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 4vh;
+  padding: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+h1{
+  font-size: 5rem;
+  padding: 3rem;
+}
+.menu {
+	display: flex;
+  justify-content: flex-end;
+	background-color: #eeeeee;
+	border-radius: 12%;
+
+	padding-left: 0.2em;
+	padding-top: 0.2em;
+}
+.menu img{
+  height: 10rem;
+}
+
+nav {
+	background-color: #eeeeee;
+	width: 30vw;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	right: 0;
+	padding: 5rem;
+}
+
+nav.onzichtbaar {
+	display: none;
+}
+
+main {
+	min-height: 100vh;
+	padding: 3rem;
+}
+
+nav a {
+	display: block;
+	text-decoration: none;
+	color: #2a2a2a;
+	font-size: 2rem;
+	margin-bottom: 3rem;
+}
+main div:nth-child(1) {
+	background-color: #879190;}
+
+main div:nth-child(1) p {
+	color: white;}
+
+main div:nth-child(5) {
+	background-color: #f3d8d4;}
+
+h1 {
+	color: #fac2d3;
+	text-transform: uppercase;
+	font-size: 4.5rem;
+	width: 40%;
+	position: absolute;
+	top: 3rem;
+	right: 3rem;
+	line-height: 5.8rem;
+	text-align: right;
+}
+
+h2 {
+	color: #1e1c18;
+	font-size: 4.5rem;
+	position: absolute;
+	text-transform: uppercase;
+	right: 3rem;
+	bottom: 3rem;}
+
+img {
+	max-width: 70%;
+	display: block;
+	margin: 7rem auto;}
+
+p {
+	position: absolute;
+	bottom: 3rem;
+	left: 3rem;}
+
+main div:nth-child(2) p, main div:nth-child(3) p, main div:nth-child(4) p  {
+	left: 34vh;}
+
+
+
+
+
+div:nth-child(5) p {
+	top: 3rem;
+	left: 3rem;}
